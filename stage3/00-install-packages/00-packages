@@ -11,3 +11,4 @@ chromium-browser rpi-chromium-mods
 gldriver-test
 fonts-droid-fallback
 gstreamer1.0-tools libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-dev libgstreamer1.0 libgstreamer-plugins-base1.0 libgstreamer-plugins-bad1.0
+liballjoyn-common-dev-1604 liballjoyn-dev-1604 liballjoyn1604 alljoyn-services-1604 liballjoynservices-dev-1604 liballjoynservices1604 libajtcl1604 liballjoyntcl-dev-1604 alljoyn-thin-client-1604
