@@ -11,7 +11,6 @@ pypy
 python-pip python3-pip
 python3-numpy
 pypy
-python3-pifacecommon python3-pifacedigitalio python3-pifacedigital-scratch-handler python-pifacecommon python-pifacedigitalio
 tree
 greenfoot bluej
 nodered
