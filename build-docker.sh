@@ -22,6 +22,14 @@ fi
 CONTAINER_NAME=${CONTAINER_NAME:-pigen_work}
 CONTINUE=${CONTINUE:-0}
 
+if [ "$*" != "" ] || [ -z "${WIFI_SSID}" ]; then
+        if [ -z "${WIFI_SSID}" ]; then
+                echo "WIFI_SSID not set in 'build'" 1>&2
+                echo 1>&2
+        fi
+        exit 1
+fi
+
 if [ "$*" != "" ] || [ -z "${IMG_NAME}" ]; then
 	if [ -z "${IMG_NAME}" ]; then
 		echo "IMG_NAME not set in 'build'" 1>&2
