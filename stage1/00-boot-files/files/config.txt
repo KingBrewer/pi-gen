@@ -54,3 +54,13 @@
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
+
+# Panzer Navi settings
+## official pi display
+lcd_rotate=2
+
+## audio is important
+hdmi_drive=2
+
+## gpu power
+gpu_mem=128
