@@ -35,6 +35,14 @@ The following environment variables are supported:
    but you should use something else for a customized version.  Export files
    in stages may add suffixes to `IMG_NAME`.
 
+ * `WIFI_SSID` **required** (Default: unset)
+
+   SSID of the wifi network
+
+ * `WIFI_PSK` **required** (Default: unset)
+
+   Password for the WiFi network
+
  * `APT_PROXY` (Default: unset)
 
    If you require the use of an apt proxy, set it here.  This proxy setting
