@@ -56,4 +56,4 @@ ln -fs /opt/vc/lib/libbrcmGLESv2.so "${ROOTFS_DIR}"/opt/vc/lib/libGLESv2.so
 ln -fs /opt/vc/lib/libbrcmEGL.so "${ROOTFS_DIR}"/opt/vc/lib/libEGL.so
 
 # libssl-dev fixes
-ln -fs /usr/include/arm-linux-gnueabihf/openssl/opensslconf.h "${ROOTFS_DIR}"/usr/include/openssl/opensslconf.h
+ln -fs ../arm-linux-gnueabihf/openssl/opensslconf.h "${ROOTFS_DIR}"/usr/include/openssl/opensslconf.h
