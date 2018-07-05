@@ -27,3 +27,4 @@ liballjoyn-common-dev-1604 liballjoyn-dev-1604 liballjoyn1604 alljoyn-services-1
 libjpeg62-turbo-dev
 policykit-1
 libssl-dev libgnutls28-dev
+wiringpi 
