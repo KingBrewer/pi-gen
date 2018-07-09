@@ -53,11 +53,15 @@
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
-dtparam=audio=on
+#dtparam=audio=on
 
 # Panzer Navi settings
 ## official pi display
 lcd_rotate=2
+
+# Panzer Navi audio
+dtoverlay=hifiberry-dacplus
+dtparam=i2c_arm=on
 
 ## audio is important
 hdmi_drive=2
