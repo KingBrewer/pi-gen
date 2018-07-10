@@ -62,7 +62,6 @@ lcd_rotate=2
 # Panzer Navi audio
 dtoverlay=hifiberry-dacplus
 dtparam=i2c_arm=on
-dtoverlay=i2s-mmap
 
 ## audio is important
 hdmi_drive=2

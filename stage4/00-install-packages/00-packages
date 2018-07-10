@@ -21,3 +21,4 @@ python-spidev python3-spidev
 python-smbus python3-smbus
 pprompt
 python3-dev python3-numpy libblas-dev liblapack-dev libatlas-base-dev gfortran python3-setuptools python3-scipy python3-h5py
+pulseaudio pulseaudio-utils pavucontrol
