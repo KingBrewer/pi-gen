@@ -20,7 +20,8 @@ sudo apt-get update
 
 sudo apt-get install docker-ce
 
+sudo modprobe loop
 
-sudo apt-get install quilt parted realpath qemu-user-static debootstrap zerofree pxz zip dosfstools bsdtar libcap2-bin grep rsync xz-utils
+sudo apt-get install quilt parted qemu-user-static debootstrap zerofree zip dosfstools bsdtar libcap2-bin grep rsync xz-utils manpages-pl
 
 sudo adduser $(whoami) docker
