@@ -53,8 +53,22 @@
 
 # Additional overlays and parameters are documented /boot/overlays/README
 
+# ----- START Panzer Navi settings -----
+## official pi display
+lcd_rotate=2
+
+## Panzer Navi audio (depending whether hifiberry card is installed or not. ATM we'll disable it, keeping the original audio
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
+# dtoverlay=hifiberry-dacplus
+
+## audio is important
+hdmi_drive=2
+
+## gpu power
+gpu_mem=128
+
+# ----- END Panzer Navi settings -----
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
