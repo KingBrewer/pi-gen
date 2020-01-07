@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt-get install \
+sudo apt-get install -y \
      apt-transport-https \
      ca-certificates \
      curl \
@@ -18,10 +18,10 @@ sudo add-apt-repository \
 
 sudo apt-get update
 
-sudo apt-get install docker-ce
+sudo apt-get install -y docker-ce
 
 sudo modprobe loop
 
-sudo apt-get install quilt parted qemu-user-static debootstrap zerofree zip dosfstools bsdtar libcap2-bin grep rsync xz-utils manpages-pl
+sudo apt-get install -y quilt parted qemu-user-static debootstrap zerofree zip dosfstools bsdtar libcap2-bin grep rsync xz-utils manpages-pl
 
 sudo adduser $(whoami) docker
