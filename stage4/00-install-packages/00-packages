@@ -7,6 +7,7 @@ raspberrypi-net-mods raspberrypi-ui-mods
 python-pip python3-pip
 python3-numpy
 pypy
+alacarte rc-gui sense-hat
 tree
 libgl1-mesa-dri libgles1 libgles2-mesa xcompmgr
 piclone
