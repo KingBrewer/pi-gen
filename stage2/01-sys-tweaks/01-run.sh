@@ -54,3 +54,10 @@ usermod --pass='*' root
 EOF
 
 rm -f "${ROOTFS_DIR}/etc/ssh/"ssh_host_*_key*
+
+# opengl fixes
+ln -fs libbrcmGLESv2.so "${ROOTFS_DIR}"/opt/vc/lib/libGLESv2.so
+ln -fs libbrcmEGL.so "${ROOTFS_DIR}"/opt/vc/lib/libEGL.so
+
+# libssl-dev fixes
+ln -fs ../arm-linux-gnueabihf/openssl/opensslconf.h "${ROOTFS_DIR}"/usr/include/openssl/opensslconf.h
